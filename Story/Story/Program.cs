@@ -26,7 +26,7 @@ namespace Story
             Console.WriteLine($"{name} var så {mood} att {name} ville äta något gott. " +
                 $"Eftersom {name} är en {art} så är det bästa {name} vet pyttipanna.");
             Console.WriteLine($"Trots att {name} var så {mood} så satte {name} igång med att laga " +
-                $"pyttipannan. Det var supergott och {name} blev nöjd och glad!");     
+                $"pyttipannan. \nDet var supergott och {name} blev nöjd och glad!");     
 
             Console.ReadLine();
         }
