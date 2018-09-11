@@ -19,9 +19,13 @@ namespace Story
             Console.Write("Mood: ");
             string mood = Console.ReadLine().ToLower();
 
+
             Console.WriteLine("Once upon a time...");
             Console.WriteLine("var det en " + mood + " " + art + " som hette " + name + ". ");
-            
+
+            Console.WriteLine("Den unika arten såg plötsligt en rosa ballong, ballongen presentera sig som:");
+            string balloon = Console.ReadLine();
+            Console.Write(", " + balloon + " blev förvånad över hur söt den " + art + " var.");
 
             Console.ReadLine();
         }
