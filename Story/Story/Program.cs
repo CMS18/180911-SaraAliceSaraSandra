@@ -18,12 +18,25 @@ namespace Story
             string art = Console.ReadLine().ToLower();
             Console.Write("Mood: ");
             string mood = Console.ReadLine().ToLower();
+            
+
+
+
             string nameFriend;
             string artFriend;
             string moodFriend;
 
             Console.WriteLine("Once upon a time...");
             Console.WriteLine("var det en " + mood + " " + art + " som hette " + name + ". ");
+
+            Console.WriteLine($"{name} var så {mood} att {name} ville äta något gott. " +
+                $"Eftersom {name} är en {art} så är det bästa {name} vet pyttipanna.");
+            Console.WriteLine($"Trots att {name} var så {mood} så satte {name} igång med att laga " +
+                $"pyttipannan. \nDet var supergott och {name} blev nöjd och glad!");     
+
+            Console.WriteLine("Den unika arten såg plötsligt en rosa ballong, ballongen presentera sig som:");
+            string balloon = Console.ReadLine();
+            Console.Write(", " + balloon + " blev förvånad över hur söt den " + art + " var.");
             Console.Write("Han var en VÄLDIGT " + mood + " " + art + " som levde djupt nere i havet tillsammans " +
                 "med sin bästis ");
             nameFriend = Console.ReadLine().ToLower();
