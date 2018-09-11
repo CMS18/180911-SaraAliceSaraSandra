@@ -18,9 +18,20 @@ namespace Story
             string art = Console.ReadLine().ToLower();
             Console.Write("Mood: ");
             string mood = Console.ReadLine().ToLower();
+            string nameFriend;
+            string artFriend;
+            string moodFriend;
 
             Console.WriteLine("Once upon a time...");
             Console.WriteLine("var det en " + mood + " " + art + " som hette " + name + ". ");
+            Console.Write("Han var en VÄLDIGT " + mood + " " + art + " som levde djupt nere i havet tillsammans " +
+                "med sin bästis ");
+            nameFriend = Console.ReadLine().ToLower();
+            Console.Write(" som var en ganska ");
+            moodFriend = Console.ReadLine().ToLower();
+            artFriend = Console.ReadLine().ToLower();
+            Console.Write(". Tillsammans hade dom the time of their lifes!");
+
             
 
             Console.ReadLine();
