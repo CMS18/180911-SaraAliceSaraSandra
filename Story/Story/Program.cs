@@ -43,7 +43,7 @@ namespace Story
             danger = Console.ReadLine();
             Console.WriteLine(" fell on the poor " + name + ", while " + belovedOne + " was screaming!");
             Console.WriteLine("Talking about an unforgettable " + occasion + ", uh?");
-            Console.WriteLine("THE END");
+
 
             
 
@@ -58,14 +58,16 @@ namespace Story
             string balloon = Console.ReadLine();
             Console.Write(", " + balloon + " blev förvånad över hur söt den " + art + " var.");
             Console.Write("Han var en VÄLDIGT " + mood + " " + art + " som levde djupt nere i havet tillsammans " +
-                "med sin bästis ");
+                "med sin bästis: ");
             nameFriend = Console.ReadLine().ToLower();
-            Console.Write(" som var en ganska ");
+            Console.Write(" som var en ganska: ");
             moodFriend = Console.ReadLine().ToLower();
+            Console.Write(" men ändå ganska snäll: ");
             artFriend = Console.ReadLine().ToLower();
-            Console.Write(". Tillsammans hade dom the time of their lifes!");
 
-            
+            Console.WriteLine("Tillsammans hade dom the time of their lifes!");
+
+            Console.WriteLine("THE END");
 
             Console.ReadLine();
         }
