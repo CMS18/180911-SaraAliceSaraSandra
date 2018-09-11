@@ -11,6 +11,8 @@ namespace Story
         static void Main(string[] args)
         {
             Console.WriteLine("Hej! Skriv in din historia: ");
+            Console.WriteLine("Once upon a time...");
+
             Console.ReadLine();
         }
     }
